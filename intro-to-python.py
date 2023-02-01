@@ -30,4 +30,14 @@ def calculator(num1, num2, operation):
          return "Can't Divide By 0" if num2 == 0 else num1/num2
      
 print(calculator(99, 11, "/"))
+
+# 4. Random Number
+def random_number(low, max):
+    while(True):
+        import random
+        random_num = random.randint(low, max)
+        if(random_num >= low & random_num <= max):
+            return random_num
+        
+print(random_number(10, 20))
     
