@@ -52,6 +52,14 @@ print(x)
     
     
 # 6. Filter
+def filter_evens(n):
+    if(n % 2 == 0):
+        return True
+    else:
+        False
+        
+evens = list(filter(filter_evens, [1, 2, 3, 4, 5]))
 
+print(evens)
     
     
