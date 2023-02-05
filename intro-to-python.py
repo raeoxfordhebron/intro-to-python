@@ -61,5 +61,14 @@ def filter_evens(n):
 evens = list(filter(filter_evens, [1, 2, 3, 4, 5]))
 
 print(evens)
+
+# 7. makePerson
+def make_person(name, age):
+    return {
+        "name": name,
+        "age": age
+    }
+    
+print(make_person("Rae", 28))
     
     
