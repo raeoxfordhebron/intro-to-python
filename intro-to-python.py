@@ -40,4 +40,18 @@ def random_number(low, max):
             return random_num
         
 print(random_number(10, 20))
+
+# 5. Map
+def add(n):
+    int(n)
+    return n + 1 ## forgot the return and the list came back as a list of none
+    
+x = list(map(add, [1, 2, 3, 4])) 
+
+print(x)
+    
+    
+# 6. Filter
+
+    
     
